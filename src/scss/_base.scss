@@ -479,17 +479,20 @@ a {
         font-size: 14px;
         color: #8594a3;
     }
-
+    .nav ul{
+        display: flex;
+    }
     .nav ul li {
         font-family: $main-font;
         font-weight: bold;
         font-size: 14px;
         color: #8594a3;
-        display: inline;
-        padding-right: 15px;
+        margin: 0 7px 0 13px;
+    }
+    .nav ul li:nth-child(1){
+        list-style-type: none;
     }
 }
-
     /*common*/
 
     .hero__button:hover,
